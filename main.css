@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+/*div.case{*/
+/*    box-sizing: border-box;*/
+/*    border: 1px solid black;*/
+/*    height: 100px;*/
+/*    width: 100px;*/
+/*}*/
+
+#labyrinthe {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    margin:50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    justify-content: center;
+    align-content: center;
+}
+
+/*.cases{*/
+/*    height: 33px;*/
+/*    width: 33px;*/
+/*    background-color: white;*/
+/*    !*border: 1px solid black;*!*/
+/*}*/
+
+.top{
+    height: 33px;
+    width: 33px;
+    border-top: 1px solid black;
+    box-sizing: border-box;
+}
+.right{
+    height: 33px;
+    width: 33px;
+    border-right: 1px solid black;
+    box-sizing: border-box;
+}
+.bottom{
+    height: 33px;
+    width: 33px;
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+}
+
+.left{
+    height: 33px;
+    width: 33px;
+    border-left: 1px solid black;
+    box-sizing: border-box;
+}
+
+.entrance{
+    background-color: blue;
+}
+.end{
+    background-color: red;
+}
